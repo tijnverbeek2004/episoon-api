@@ -1,0 +1,24 @@
+# Python bytecode en cache mappen
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuele omgevingen — bevatten geinstalleerde packages, niet nodig in git
+venv/
+.venv/
+env/
+
+# Geheimen — nooit committen
+.env
+
+# IDE / editor bestanden
+.vscode/
+.idea/
+*.swp
+
+# Test en build artifacts
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
